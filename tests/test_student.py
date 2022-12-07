@@ -46,10 +46,9 @@ def test_get_student_with_more_classes_return_student_b():
 
     assert student == ada
 
-def test_init_with_empty_courses():
+def test_init_with_None_courses():
     name = "Ada Lovelace"
     level = "sophomore"
-    # courses = []
 
     ada = Student(name, level)
 
